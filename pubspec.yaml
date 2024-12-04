@@ -1,0 +1,56 @@
+name: design_up
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  gap: ^3.0.1
+  flutter_svg: ^2.0.10+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/fonts/
+    - assets/icons/
+
+  fonts:
+    - family: thin
+      fonts:
+        - asset: assets/fonts/Onest-Thin.ttf
+    - family: extra-light
+      fonts:
+        - asset: assets/fonts/Onest-ExtraLight.ttf
+    - family: light
+      fonts:
+        - asset: assets/fonts/Onest-Light.ttf
+    - family: regular
+      fonts:
+        - asset: assets/fonts/Onest-Regular.ttf
+    - family: medium
+      fonts:
+        - asset: assets/fonts/Onest-Medium.ttf
+    - family: semi-bold
+      fonts:
+        - asset: assets/fonts/Onest-SemiBold.ttf
+    - family: bold
+      fonts:
+        - asset: assets/fonts/Onest-Bold.ttf
+    - family: extra-bold
+      fonts:
+        - asset: assets/fonts/Onest-ExtraBold.ttf
+    - family: black
+      fonts:
+        - asset: assets/fonts/Onest-Black.ttf
